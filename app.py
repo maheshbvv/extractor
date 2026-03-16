@@ -86,5 +86,5 @@ def extract():
 
 
 if __name__ == "__main__":
-    print("Starting server at http://localhost:5000")
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    print("Starting server at http://localhost:8080")
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
